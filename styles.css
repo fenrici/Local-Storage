@@ -26,14 +26,14 @@ input, textarea {
 button {
     width: 100%;
     padding: 8px;
-    border: 1px solid #aaa;
+    background: blue;
+    color: white;
+    border: none;
     cursor: pointer;
-    background-color: #dcdcdc; 
-    color: black;
 }
 
 button:hover {
-    background-color: #c0c0c0; 
+    background: darkblue;
 }
 
 #contactList {
@@ -55,26 +55,23 @@ button:hover {
 }
 
 .contacto button {
-    background-color: #ff9999; 
-    border: 1px solid #cc0000;
-    color: black;
+    background: red;
     margin-top: 5px;
 }
 
 .contacto button:hover {
-    background-color: #ff6666; 
+    background: darkred;
+}
 
 #borrarTodos {
-    background-color: #9999ff; 
-    border: 1px solid #0000cc;
-    color: black;
+    background: orange;
     margin: 10px auto;
     display: block;
     width: 200px;
 }
 
 #borrarTodos:hover {
-    background-color: #6666ff;
+    background: darkorange;
 }
 
 
